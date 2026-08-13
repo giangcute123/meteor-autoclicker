@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "meteor-autoclicker",
+  "version": "${version}",
+  "name": "Meteor Autoclicker",
+  "description": "Module click chuot khi giu nut, khong tu dong AFK farm.",
+  "authors": ["giangcute123"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.tenban.autoclicker.AutoclickerAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "meteor-client": "*"
+  }
+}
